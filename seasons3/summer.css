@@ -1,0 +1,16 @@
+html{
+    background: url(summer-mountain-town_jackson-hole_2000x1125.jpg)
+}
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+}
+
+section{
+    background-color:rgba(0,0,0,0.8);
+    margin: 20px;
+    padding: inherit;
+    color: white;
+    display: inline-block;
+}

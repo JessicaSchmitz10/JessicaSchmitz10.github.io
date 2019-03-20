@@ -1,0 +1,16 @@
+html{
+    background: url(beautiful-autumn-fall-mountain-lake-nature-living-room-decoration-home-wall-art-decor-wood-frame-fabric.jpg_640x640.jpg)
+}
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+}
+
+section{
+    background-color:rgba(0,0,0,0.8);
+    margin: 20px;
+    padding: inherit;
+    color: white;
+    display: inline-block;
+}
