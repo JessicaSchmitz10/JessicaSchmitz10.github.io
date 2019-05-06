@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+    
+<style>
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+</style>
+    
+    
+  <head>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136524413-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-136524413-1');
+</script>
+    <title>Experience Survey</title>
+      <link href="survey.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+      
+<div id="wrap">     
+<header>
+      </header>
+    
+<nav>
+     <ul>
+            <li><a href="yellowstone.html">Home</a></li>    
+            <li><a href="mammoth.html">Mammoth Hot Springs</a></li>
+            <li><a href="canyon.html">Canyon Village</a></li>
+            <li><a href="tower.html">Tower-Roosevelt</a></li>
+            <li><a href="lake.html">Lake Yellowstone</a></li>
+            <li><a href="faithful.html">Old Faithful</a></li>
+     </ul>
+      </nav>
+<section>
+    <form method="post" action="yellowstone.html">
+    <fieldset>
+    <legend>Please Fill Out This Form</legend>
+        <p><label for="fname">First Name</label><br>
+        <input type="text" name="fname" id="fname" required></p>
+        
+        <p><label for="lname">Last Name</label><br>
+        <input type="text" name="lname" id="lname" required></p>
+        
+        <p><label for="phone">Phone Number</label><br>
+        <input type="tel" name="phone" id="phone"></p>
+        
+        <p><label for="email">Email Address</label><br>
+        <input type="email" name="email" id="email"></p>
+        
+        <p>When did you last visit the park?</p>
+         <p><input type="checkbox" name="visit" id="friend" value="month"><label for="month">Last Month</label><br>
+         <input type="checkbox" name="visit" id="last" value="last"><label for="ad">Within the Last Year</label><br>
+         <input type="checkbox" name="visit" id="two" value="two"><label for="search">Within 2 years</label><br>
+         <input type="checkbox" name="visit" id="five" value="five"><label for="emaile">Within 5 years</label><br>
+         <input type="checkbox" name="visit" id="longtime" value="longtime"><label for="longtime">It has been awhile</label><br></p>
+        
+        
+        <p>What was your favorite location?</p>
+        <select>
+            <option value="lake">Lake Yellowstone</option>
+            <option value="canyon">Grand Canyon of the Yellowstone</option>
+            <option value="faithful">Old Faithful Geyser Basin</option>
+            <option value="mammoth ">Mammoth Hot Springs</option>
+            <option value="roosevelt">Roosevelet Lodge</option>
+            <option value="other">Other</option>
+        </select>
+        
+        <p>What were you most excited to see</p>
+        <select>
+            <option value="wildlife">Wildlife</option>
+            <option value="geysers">Geysers</option>
+            <option value="hotsprings">Hotsprings</option>
+            <option value="views">Views</option>
+            <option value="nature">Nature in General</option>
+        </select>
+        
+        <p> Will you visit again? </p>
+        <input type="radio" name="before" id="yes" value="yes"><label for="yes">Yes</label><br><input type="radio" name="before" id="no" value="no"><label for="no">No</label>
+        
+        <p> Please leave any comments about your experience below </p>
+        <textarea name="comments" rows="8" cols="50" placeholder="Type Here"></textarea>
+        
+       <p><input type="submit" name="submit" value="Submit!"></p>
+    </fieldset>    
+    </form>
+      </section>
+<footer>
+    <p>Privacy Policy Terms of Use Text Terms
+© Yellowstone National Park Montana, Wyoming, Idaho USA </p>
+      </footer>
+      </div> 
+
+</body>
+</html>
